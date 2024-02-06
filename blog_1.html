@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<head>
+    <title>My First Blog</title>
+    <link rel="stylesheet" href="light-mode.css">
+</head>
+
+<body style="font-family: sans-serif; font-size: large;">
+    <h2>Lorem Ipsum</h2>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Porta non pulvinar neque laoreet suspendisse interdum consectetur libero. Lacus laoreet non curabitur gravida arcu. Justo eget magna fermentum iaculis eu non diam. Scelerisque felis imperdiet proin fermentum leo. Fermentum dui faucibus in ornare quam viverra orci sagittis eu. In ante metus dictum at tempor commodo ullamcorper a. Quis viverra nibh cras pulvinar mattis nunc sed blandit libero. Viverra maecenas accumsan lacus vel facilisis volutpat. Nisi est sit amet facilisis magna etiam. Enim sit amet venenatis urna cursus eget. Diam quam nulla porttitor massa id. Turpis egestas pretium aenean pharetra magna ac placerat vestibulum lectus. <br>
+
+Metus dictum at tempor commodo ullamcorper a lacus vestibulum. Eget mauris pharetra et ultrices neque ornare aenean euismod. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Facilisis magna etiam tempor orci eu lobortis elementum. Eu augue ut lectus arcu. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et ligula. Faucibus vitae aliquet nec ullamcorper sit. Scelerisque in dictum non consectetur a erat nam at lectus. Tristique risus nec feugiat in fermentum posuere urna. Id faucibus nisl tincidunt eget nullam non nisi est. Integer feugiat scelerisque varius morbi enim nunc faucibus a pellentesque. Viverra tellus in hac habitasse platea dictumst vestibulum. Eget mi proin sed libero enim sed. Turpis tincidunt id aliquet risus. Quam adipiscing vitae proin sagittis nisl rhoncus. Rhoncus urna neque viverra justo. Sit amet venenatis urna cursus eget nunc scelerisque viverra. Rutrum quisque non tellus orci ac. <br>
+
+Habitant morbi tristique senectus et netus et malesuada fames ac. Habitant morbi tristique senectus et netus et malesuada fames. Vel pretium lectus quam id leo in. Eget nullam non nisi est sit amet facilisis. Netus et malesuada fames ac turpis egestas sed tempus. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Enim tortor at auctor urna nunc id. Velit euismod in pellentesque massa placerat duis ultricies lacus. Bibendum at varius vel pharetra vel turpis nunc eget lorem. Varius vel pharetra vel turpis nunc eget lorem dolor sed. Eleifend mi in nulla posuere sollicitudin aliquam. Nec dui nunc mattis enim. <br>
+
+Fringilla ut morbi tincidunt augue interdum velit euismod in. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Faucibus nisl tincidunt eget nullam non. Vitae aliquet nec ullamcorper sit amet risus nullam. Volutpat consequat mauris nunc congue nisi vitae suscipit tellus mauris. Morbi tincidunt augue interdum velit. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Bibendum est ultricies integer quis auctor elit sed vulputate mi. Posuere urna nec tincidunt praesent semper feugiat nibh. Id ornare arcu odio ut sem nulla pharetra diam. <br>
+    </p>
+
+    <!-- <button class = "likeButton" onclick="toggleLike()">
+        <img src="icons/unliked.png" alt="like" id="like" class="unlike">
+    </button> -->
+
+    <hr>
+
+    <div class="heart-btn">
+
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+        <div class="content">
+          <span class="heart"></span>
+          <span class="text">Like</span>
+          <span class="numb"></span>
+        </div>
+
+        <script>
+            $(document).ready(function(){
+              $('.content').click(function(){
+                $('.content').toggleClass("heart-active")
+                $('.text').toggleClass("heart-active")
+                $('.numb').toggleClass("heart-active")
+                $('.heart').toggleClass("heart-active")
+              });
+            });
+        </script>
+
+    </div>
+
+    <hr>
+
+
+    <div id="comment-box">
+        <textarea id="comment-input" placeholder="Write your comment here"></textarea>
+        <button id="submit-btn">Submit</button>
+        <div id="comments-container"></div>
+    </div>
+
+    <hr>
+  
+      
+    
+    
+
+
+    <script src="script.js"></script>
+
+
+
+
+</body>
